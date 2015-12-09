@@ -1,0 +1,123 @@
+@import url(public.css);
+body{
+	background-color: #060412;
+	font:12px "ËÎÌו",Arial,Helvetica,sans-serif;
+}
+.names{
+	width: 200px;
+	height: 110px;
+	border: 1px solid black;
+	position: absolute;
+	border-radius: 5px;
+	left: 80px;
+	top: 90px;
+	font-size: 3em;
+	text-align: center;
+	box-shadow: 0 0 8px yellow;
+	background-color: #00d6b2;
+	/*line-height: 200px;*/
+	-webkit-animation-name:pulse1;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-timing-function:ease;
+	-webkit-animation-iteration-count:infinite;
+}
+@-webkit-keyframes pulse1{
+	0%{transform:scale(1,1);}
+	50%{transform:scale(1.1,1.1);}
+	100%{transform:scale(1,1);}
+}
+.out{
+	width:750px;
+	height: 562px;
+	border: 3px solid yellow;
+	margin:  50px auto 0;
+	position: relative;
+}
+.out .imgs{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+
+}
+.out .imgs img{
+	width: 100%;
+	position: absolute;
+	/*left: 0;*/
+	top: 0;
+}
+
+.out .num{
+	width: 225px;
+	height: 40px;
+	z-index: 99;
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+}
+.out .num li{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-color: #dfdfdf;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 40px;
+}
+.out .num .hot{
+	background-color: #009494;
+	color: #fff;
+}
+.out .btn{
+	width: 100%;
+	height:100px; 
+	position:absolute;
+	left: 0;
+	top:50%;
+	z-index: 99;
+
+	margin-top: -50px;
+}
+.out .btn div{
+	width: 50px;
+	height: 100px;
+	background-color: #dfdfdf;
+	font-size: 80px;
+	text-align: center;
+	line-height: 100px;
+	color: #666;
+	opacity: 0.5;
+}
+.out .btn div:hover{
+	background-color: #009494;
+	color: #fff;
+}
+.out .btn .left{
+	margin-left: 30px;
+	float: left;
+}
+.out .btn .right{
+	margin-right: 30px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
